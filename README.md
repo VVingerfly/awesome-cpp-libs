@@ -23,6 +23,7 @@
   - [Optimization](#optimization)
 - [CV](#cv)
   - [Image Processing](#image-processing)
+  - [Multi-View Reconstruction](#multi-view-reconstruction)
 - [CG](#cg)
   - [Geometry Processing](#geometry-processing)
   - [Triangulation](#triangulation)
@@ -140,6 +141,18 @@ Ipopt (Interior Point OPTimizer) is a software package for large-scale nonlinear
 [![Watchers](https://img.shields.io/github/watchers/opencv/opencv)](Watchers) [![Stars](https://img.shields.io/github/stars/opencv/opencv)](Stars) [![Forks](https://img.shields.io/github/forks/opencv/opencv)](Forks) [![License](https://img.shields.io/github/license/opencv/opencv)](LICENSE)
 
 Open Source Computer Vision Library.
+
+### Multi-View Reconstruction
+
+#### [OpenMVG](https://github.com/openMVG/openMVG)
+[![Watchers](https://img.shields.io/github/watchers/openMVG/openMVG)](Watchers) [![Stars](https://img.shields.io/github/stars/openMVG/openMVG)](Stars) [![Forks](https://img.shields.io/github/forks/openMVG/openMVG)](Forks) [![License](https://img.shields.io/github/license/openMVG/openMVG)](LICENSE)
+
+OpenMVG (Multiple View Geometry) is a library for computer-vision scientists and especially targeted to the Multiple View Geometry community. It is designed to provide an easy access to the classical problem solvers in Multiple View Geometry and solve them accurately.
+
+#### [openMVS](https://github.com/cdcseacave/openMVS)
+[![Watchers](https://img.shields.io/github/watchers/cdcseacave/openMVS)](Watchers) [![Stars](https://img.shields.io/github/stars/cdcseacave/openMVS)](Stars) [![Forks](https://img.shields.io/github/forks/cdcseacave/openMVS)](Forks) [![License](https://img.shields.io/github/license/cdcseacave/openMVS)](LICENSE)
+
+OpenMVS (Multi-View Stereo) is a library for computer-vision scientists and especially targeted to the Multi-View Stereo reconstruction community. The input is a set of camera poses plus the sparse point-cloud and the output is a textured mesh. 
 
 
 ## CG
