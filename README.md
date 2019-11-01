@@ -154,6 +154,11 @@ OpenMVG (Multiple View Geometry) is a library for computer-vision scientists and
 
 OpenMVS (Multi-View Stereo) is a library for computer-vision scientists and especially targeted to the Multi-View Stereo reconstruction community. The input is a set of camera poses plus the sparse point-cloud and the output is a textured mesh. 
 
+#### [COLMAP](https://github.com/colmap/colmap)
+[![Watchers](https://img.shields.io/github/watchers/colmap/colmap)](Watchers) [![Stars](https://img.shields.io/github/stars/colmap/colmap)](Stars) [![Forks](https://img.shields.io/github/forks/colmap/colmap)](Forks) [![License](https://img.shields.io/github/license/colmap/colmap)](LICENSE)
+
+COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface. It offers a wide range of features for reconstruction of ordered and unordered image collections. The software is licensed under the new BSD license.  
+
 
 ## CG
 
