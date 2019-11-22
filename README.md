@@ -1,13 +1,10 @@
-
-
-# Awesome Cpp Libs 
+# Awesome Cpp Libs
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > An awesome & curated list of cpp libraries for **CV/CGers**.
 
 -----
-
 
 ## Table of Contents
 
@@ -33,7 +30,6 @@
   - [Collision](#collision)
 
 -----
-
 ## Cpp
 
 ### Command Line Parser
@@ -43,7 +39,6 @@
 
 Lightweight C++ command line option parser.
 
-
 ### Logging
 
 #### [spdlog](https://github.com/gabime/spdlog)
@@ -51,12 +46,10 @@ Lightweight C++ command line option parser.
 
 Very fast, header-only/compiled, C++ logging library.
 
-
 #### [plog](https://github.com/SergiusTheBest/plog)
 [![Watchers](https://img.shields.io/github/watchers/SergiusTheBest/plog)](Watchers) [![Stars](https://img.shields.io/github/stars/SergiusTheBest/plog)](Stars) [![Forks](https://img.shields.io/github/forks/SergiusTheBest/plog)](Forks) [![License](https://img.shields.io/github/license/SergiusTheBest/plog)](LICENSE)
 
 Portable, simple and extensible C++ logging library, pretty powerful logging library in about 1000 lines of code.
-
 
 ### Format String
 
@@ -65,12 +58,10 @@ Portable, simple and extensible C++ logging library, pretty powerful logging lib
 
 {fmt} is an open-source formatting library for C++. It can be used as a safe and fast alternative to (s)printf and iostreams.
 
-
 #### [tinyformat](https://github.com/c42f/tinyformat)
 [![Watchers](https://img.shields.io/github/watchers/c42f/tinyformat)](Watchers) [![Stars](https://img.shields.io/github/stars/c42f/tinyformat)](Stars) [![Forks](https://img.shields.io/github/forks/c42f/tinyformat)](Forks) [![License](https://img.shields.io/github/license/c42f/tinyformat)](LICENSE)
 
-tinyformat.h is a type safe printf replacement library in a single C++ header file. 
-
+tinyformat.h is a type safe printf replacement library in a single C++ header file.
 
 ### Testing
 
@@ -79,7 +70,6 @@ tinyformat.h is a type safe printf replacement library in a single C++ header fi
 
 A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch)
 
-
 ### Serialization
 
 #### [cereal](https://github.com/USCiLab/cereal)
@@ -87,12 +77,10 @@ A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - 
 
 cereal is a header-only C++11 serialization library. cereal takes arbitrary data types and reversibly turns them into different representations, such as compact binary encodings, XML, or JSON. cereal was designed to be fast, light-weight, and easy to extend - it has no external dependencies and can be easily bundled with other code or used standalone.
 
-
 #### [json](https://github.com/nlohmann/json)
 [![Watchers](https://img.shields.io/github/watchers/nlohmann/json)](Watchers) [![Stars](https://img.shields.io/github/stars/nlohmann/json)](Stars) [![Forks](https://img.shields.io/github/forks/nlohmann/json)](Forks) [![License](https://img.shields.io/github/license/nlohmann/json)](LICENSE)
 
 JSON for Modern C++ 
-
 
 ### GUI
 
@@ -101,12 +89,10 @@ JSON for Modern C++
 
 Dear ImGui is a bloat-free graphical user interface library for C++. It outputs optimized vertex buffers that you can render anytime in your 3D-pipeline enabled application. It is fast, portable, renderer agnostic and self-contained (no external dependencies).
 
-
 #### [nanogui](https://github.com/wjakob/nanogui)
 [![Watchers](https://img.shields.io/github/watchers/wjakob/nanogui)](Watchers) [![Stars](https://img.shields.io/github/stars/wjakob/nanogui)](Stars) [![Forks](https://img.shields.io/github/forks/wjakob/nanogui)](Forks) [![License](https://img.shields.io/github/license/wjakob/nanogui)](LICENSE)
 
 NanoGUI is a minimalistic cross-platform widget library for OpenGL 3.x or higher. It supports automatic layout generation, stateful C++11 lambdas callbacks, a variety of useful widget types and Retina-capable rendering on Apple devices thanks to NanoVG by Mikko Mononen. Python bindings of all functionality are provided using pybind11.
-
 
 ## Math
 
@@ -115,7 +101,6 @@ NanoGUI is a minimalistic cross-platform widget library for OpenGL 3.x or higher
 #### [Eigen](http://eigen.tuxfamily.org)
 
 Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
-
 
 ### Optimization
 
@@ -132,12 +117,16 @@ Ceres Solver is an open source C++ library for modeling and solving large, compl
 
 Ipopt (Interior Point OPTimizer) is a software package for large-scale nonlinear optimization.
 
+#### [NLopt](https://github.com/stevengj/nlopt)
+[![Watchers](https://img.shields.io/github/watchers/stevengj/nlopt)](Watchers) [![Stars](https://img.shields.io/github/stars/stevengj/nlopt)](Stars) [![Forks](https://img.shields.io/github/forks/stevengj/nlopt)](Forks) [![License](https://img.shields.io/github/license/stevengj/nlopt)](LICENSE)
+
+NLopt is a library for nonlinear local and global optimization, for functions with and without gradient information. It is designed as a simple, unified interface and packaging of several free/open-source nonlinear optimization libraries.
 
 ## CV
 
 ### Image Processing
 
-#### [Opencv](https://github.com/opencv/opencv)
+#### [OpenCV](https://github.com/opencv/opencv)
 [![Watchers](https://img.shields.io/github/watchers/opencv/opencv)](Watchers) [![Stars](https://img.shields.io/github/stars/opencv/opencv)](Stars) [![Forks](https://img.shields.io/github/forks/opencv/opencv)](Forks) [![License](https://img.shields.io/github/license/opencv/opencv)](LICENSE)
 
 Open Source Computer Vision Library.
@@ -152,13 +141,12 @@ OpenMVG (Multiple View Geometry) is a library for computer-vision scientists and
 #### [openMVS](https://github.com/cdcseacave/openMVS)
 [![Watchers](https://img.shields.io/github/watchers/cdcseacave/openMVS)](Watchers) [![Stars](https://img.shields.io/github/stars/cdcseacave/openMVS)](Stars) [![Forks](https://img.shields.io/github/forks/cdcseacave/openMVS)](Forks) [![License](https://img.shields.io/github/license/cdcseacave/openMVS)](LICENSE)
 
-OpenMVS (Multi-View Stereo) is a library for computer-vision scientists and especially targeted to the Multi-View Stereo reconstruction community. The input is a set of camera poses plus the sparse point-cloud and the output is a textured mesh. 
+OpenMVS (Multi-View Stereo) is a library for computer-vision scientists and especially targeted to the Multi-View Stereo reconstruction community. The input is a set of camera poses plus the sparse point-cloud and the output is a textured mesh.
 
 #### [COLMAP](https://github.com/colmap/colmap)
 [![Watchers](https://img.shields.io/github/watchers/colmap/colmap)](Watchers) [![Stars](https://img.shields.io/github/stars/colmap/colmap)](Stars) [![Forks](https://img.shields.io/github/forks/colmap/colmap)](Forks) [![License](https://img.shields.io/github/license/colmap/colmap)](LICENSE)
 
-COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface. It offers a wide range of features for reconstruction of ordered and unordered image collections. The software is licensed under the new BSD license.  
-
+COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface. It offers a wide range of features for reconstruction of ordered and unordered image collections. The software is licensed under the new BSD license.
 
 ## CG
 
@@ -169,29 +157,24 @@ COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (M
 
 A simple C++ geometry processing library.
 
-
 #### [CGAL](https://github.com/CGAL/cgal)
 [![Watchers](https://img.shields.io/github/watchers/CGAL/cgal)](Watchers) [![Stars](https://img.shields.io/github/stars/CGAL/cgal)](Stars) [![Forks](https://img.shields.io/github/forks/CGAL/cgal)](Forks) [![License](https://img.shields.io/github/license/CGAL/cgal)](LICENSE)
 
 The Computational Geometry Algorithms Library (CGAL), a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry.
-
 
 #### [Open3D](https://github.com/intel-isl/Open3D)
 [![Watchers](https://img.shields.io/github/watchers/intel-isl/Open3D)](Watchers) [![Stars](https://img.shields.io/github/stars/intel-isl/Open3D)](Stars) [![Forks](https://img.shields.io/github/forks/intel-isl/Open3D)](Forks) [![License](https://img.shields.io/github/license/intel-isl/Open3D)](LICENSE)
 
 A modern library for 3D data processing.
 
-
-#### [vcglib](https://github.com/cnr-isti-vclab/vcglib/)
+#### [vcglib](https://github.com/cnr-isti-vclab/vcglib)
 [![Watchers](https://img.shields.io/github/watchers/cnr-isti-vclab/vcglib)](Watchers) [![Stars](https://img.shields.io/github/stars/cnr-isti-vclab/vcglib)](Stars) [![Forks](https://img.shields.io/github/forks/cnr-isti-vclab/vcglib)](Forks) [![License](https://img.shields.io/github/license/cnr-isti-vclab/vcglib)](LICENSE)
 
 The Visualization and Computer Graphics Library (VCGlib for short), a open source, portable, C++, templated, no dependency, library for manipulation, processing, cleaning, simplifying triangle meshes.
 
-
 #### [OpenFlipper](http://www.openflipper.org/)
 
 A flexible geometry modeling and processing framework.
-
 
 ### Triangulation
 
@@ -199,42 +182,35 @@ A flexible geometry modeling and processing framework.
 
 A Two-Dimensional Quality Mesh Generator and Delaunay Triangulator.
 
-
 ### Transformation
 
 #### [Sophus](https://github.com/strasdat/Sophus)
 [![Watchers](https://img.shields.io/github/watchers/strasdat/Sophus)](Watchers) [![Stars](https://img.shields.io/github/stars/strasdat/Sophus)](Stars) [![Forks](https://img.shields.io/github/forks/strasdat/Sophus)](Forks) [![License](https://img.shields.io/github/license/strasdat/Sophus)](LICENSE)
 
-Sophus is a c++ implementation of Lie groups commonly used for 2d and 3d geometric problems (i.e. for Computer Vision or Robotics applications). Among others, this package includes the special orthogonal groups SO(2) and SO(3) to present rotations in 2d and 3d as well as the special Euclidean group SE(2) and SE(3) to represent rigid body transformations (i.e. rotations and translations) in 2d and 3d.
-It's released under a MIT license.
-
+Sophus is a c++ implementation of Lie groups commonly used for 2d and 3d geometric problems (i.e. for Computer Vision or Robotics applications). Among others, this package includes the special orthogonal groups SO(2) and SO(3) to present rotations in 2d and 3d as well as the special Euclidean group SE(2) and SE(3) to represent rigid body transformations (i.e. rotations and translations) in 2d and 3d. It is released under a MIT license.
 
 ### Registration
 
 #### [libpointmatcher](https://github.com/ethz-asl/libpointmatcher)
 [![Watchers](https://img.shields.io/github/watchers/ethz-asl/libpointmatcher)](Watchers) [![Stars](https://img.shields.io/github/stars/ethz-asl/libpointmatcher)](Stars) [![Forks](https://img.shields.io/github/forks/ethz-asl/libpointmatcher)](Forks) [![License](https://img.shields.io/github/license/ethz-asl/libpointmatcher)](LICENSE)
 
-libpointmatcher is a modular library implementing the Iterative Closest Point (ICP) algorithm for aligning point clouds. It has applications in robotics and computer vision.
-It's released under a permissive BSD license.
-
+libpointmatcher is a modular library implementing the Iterative Closest Point (ICP) algorithm for aligning point clouds. It has applications in robotics and computer vision. \nIt is released under a permissive BSD license.
 
 #### [ICPCUDA](https://github.com/mp3guy/ICPCUDA)
 [![Watchers](https://img.shields.io/github/watchers/mp3guy/ICPCUDA)](Watchers) [![Stars](https://img.shields.io/github/stars/mp3guy/ICPCUDA)](Stars) [![Forks](https://img.shields.io/github/forks/mp3guy/ICPCUDA)](Forks) [![License](https://img.shields.io/github/license/mp3guy/ICPCUDA)](LICENSE)
 
-Super fast implementation of ICP in CUDA for compute capable devices 3.5 or higher.  Requires CUDA, includes Pangolin, Eigen and Sophus third party submodules
-
+Super fast implementation of ICP in CUDA for compute capable devices 3.5 or higher. Requires CUDA, includes Pangolin, Eigen and Sophus third party submodules
 
 ### Nearest Neighbors
 
-#### [ANN](https://www.cs.umd.edu/~mount/ANN/)
+#### [ANN](https://www.cs.umd.edu/~mount/ANN)
 
 ANN is a library written in C++, which supports data structures and algorithms for both exact and approximate nearest neighbor searching in arbitrarily high dimensions.
 
 #### [nanoflann](https://github.com/jlblancoc/nanoflann)
 [![Watchers](https://img.shields.io/github/watchers/jlblancoc/nanoflann)](Watchers) [![Stars](https://img.shields.io/github/stars/jlblancoc/nanoflann)](Stars) [![Forks](https://img.shields.io/github/forks/jlblancoc/nanoflann)](Forks) [![License](https://img.shields.io/github/license/jlblancoc/nanoflann)](LICENSE)
 
-A C++11 header-only library for Nearest Neighbor (NN) search with KD-trees
-
+A C++11 header-only library for Nearest Neighbor (NN) search with KD-trees.
 
 ### Collision
 
@@ -242,7 +218,4 @@ A C++11 header-only library for Nearest Neighbor (NN) search with KD-trees
 [![Watchers](https://img.shields.io/github/watchers/flexible-collision-library/fcl)](Watchers) [![Stars](https://img.shields.io/github/stars/flexible-collision-library/fcl)](Stars) [![Forks](https://img.shields.io/github/forks/flexible-collision-library/fcl)](Forks) [![License](https://img.shields.io/github/license/flexible-collision-library/fcl)](LICENSE)
 
 FCL is a library for performing three types of proximity queries on a pair of geometric models composed of triangles.
-
-
-## [Back to Top](#table-of-contents)
 
