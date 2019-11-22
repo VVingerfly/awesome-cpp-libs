@@ -21,6 +21,7 @@ class LibParser:
         s = self.header()
         s += self.toc()
         s += self.content()
+        s += self.footer()
         return s
     
     def export_json(self, fp):
@@ -37,6 +38,10 @@ class LibParser:
         s = '# Awesome Cpp Libs\n\n' \
         '[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)\n\n' \
         '> An awesome & curated list of cpp libraries for **CV/CGers**.\n\n'
+        return s
+    
+    def footer(self):
+        s = '\n## [Back to Top](#table-of-contents)\n'
         return s
 
     def toc(self):
