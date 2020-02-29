@@ -28,6 +28,7 @@
   - [Registration](#registration)
   - [Nearest Neighbors](#nearest-neighbors)
   - [Collision](#collision)
+  - [Others](#others)
 
 -----
 ## Cpp
@@ -102,6 +103,11 @@ NanoGUI is a minimalistic cross-platform widget library for OpenGL 3.x or higher
 
 Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
 
+#### [linalg](https://github.com/sgorsten/linalg)
+[![Watchers](https://img.shields.io/github/watchers/sgorsten/linalg)](Watchers) [![Stars](https://img.shields.io/github/stars/sgorsten/linalg)](Stars) [![Forks](https://img.shields.io/github/forks/sgorsten/linalg)](Forks) [![License](https://img.shields.io/github/license/sgorsten/linalg)](LICENSE)
+
+`linalg.h` is a single header, public domain, short vector math library for C++.
+
 ### Optimization
 
 #### [ceres-solver](https://github.com/ceres-solver/ceres-solver)
@@ -130,6 +136,11 @@ NLopt is a library for nonlinear local and global optimization, for functions wi
 [![Watchers](https://img.shields.io/github/watchers/opencv/opencv)](Watchers) [![Stars](https://img.shields.io/github/stars/opencv/opencv)](Stars) [![Forks](https://img.shields.io/github/forks/opencv/opencv)](Forks) [![License](https://img.shields.io/github/license/opencv/opencv)](LICENSE)
 
 Open Source Computer Vision Library.
+
+#### [stb](https://github.com/nothings/stb)
+[![Watchers](https://img.shields.io/github/watchers/nothings/stb)](Watchers) [![Stars](https://img.shields.io/github/stars/nothings/stb)](Stars) [![Forks](https://img.shields.io/github/forks/nothings/stb)](Forks) [![License](https://img.shields.io/github/license/nothings/stb)](LICENSE)
+
+single-file public domain (or MIT licensed) libraries for C/C++
 
 ### Multi-View Reconstruction
 
@@ -184,6 +195,11 @@ A Two-Dimensional Quality Mesh Generator and Delaunay Triangulator.
 
 ### Transformation
 
+#### [manif](https://github.com/artivis/manif)
+[![Watchers](https://img.shields.io/github/watchers/artivis/manif)](Watchers) [![Stars](https://img.shields.io/github/stars/artivis/manif)](Stars) [![Forks](https://img.shields.io/github/forks/artivis/manif)](Forks) [![License](https://img.shields.io/github/license/artivis/manif)](LICENSE)
+
+manif is a header-only C++11 Lie theory library for state-estimation targeted at robotics applications.
+
 #### [Sophus](https://github.com/strasdat/Sophus)
 [![Watchers](https://img.shields.io/github/watchers/strasdat/Sophus)](Watchers) [![Stars](https://img.shields.io/github/stars/strasdat/Sophus)](Stars) [![Forks](https://img.shields.io/github/forks/strasdat/Sophus)](Forks) [![License](https://img.shields.io/github/license/strasdat/Sophus)](LICENSE)
 
@@ -218,6 +234,13 @@ A C++11 header-only library for Nearest Neighbor (NN) search with KD-trees.
 [![Watchers](https://img.shields.io/github/watchers/flexible-collision-library/fcl)](Watchers) [![Stars](https://img.shields.io/github/stars/flexible-collision-library/fcl)](Stars) [![Forks](https://img.shields.io/github/forks/flexible-collision-library/fcl)](Forks) [![License](https://img.shields.io/github/license/flexible-collision-library/fcl)](LICENSE)
 
 FCL is a library for performing three types of proximity queries on a pair of geometric models composed of triangles.
+
+### Others
+
+#### [quickhull](https://github.com/akuukka/quickhull)
+[![Watchers](https://img.shields.io/github/watchers/akuukka/quickhull)](Watchers) [![Stars](https://img.shields.io/github/stars/akuukka/quickhull)](Stars) [![Forks](https://img.shields.io/github/forks/akuukka/quickhull)](Forks) [![License](https://img.shields.io/github/license/akuukka/quickhull)](LICENSE)
+
+C++ implementation of the 3D QuickHull algorithm.
 
 
 ## [Back to Top](#table-of-contents)

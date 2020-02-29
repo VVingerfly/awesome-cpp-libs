@@ -58,6 +58,10 @@ Math:
       name: Eigen
       repo: http://eigen.tuxfamily.org
       intro: 'Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.'
+    linalg:
+      name: linalg
+      repo: https://github.com/sgorsten/linalg
+      intro: '`linalg.h` is a single header, public domain, short vector math library for C++.'
 
   Optimization:
     ceres-solver:
@@ -82,6 +86,10 @@ CV:
       name: OpenCV
       repo: https://github.com/opencv/opencv
       intro: 'Open Source Computer Vision Library.'
+    stb:
+      name: stb
+      repo: https://github.com/nothings/stb
+      intro: 'single-file public domain (or MIT licensed) libraries for C/C++'
 
   Multi-View Reconstruction:
     OpenMVG:
@@ -127,6 +135,10 @@ CG:
       intro: 'A Two-Dimensional Quality Mesh Generator and Delaunay Triangulator.'
 
   Transformation:
+    manif:
+      name: manif
+      repo: https://github.com/artivis/manif
+      intro: 'manif is a header-only C++11 Lie theory library for state-estimation targeted at robotics applications.'
     Sophus:
       name: Sophus
       repo: https://github.com/strasdat/Sophus
@@ -158,3 +170,9 @@ CG:
       repo: https://github.com/flexible-collision-library/fcl
       intro: 'FCL is a library for performing three types of proximity queries on a pair of geometric models composed of triangles.'
       
+  Others:
+    quickhull:
+      name: quickhull
+      repo: https://github.com/akuukka/quickhull
+      intro: 'C++ implementation of the 3D QuickHull algorithm.'
+  
