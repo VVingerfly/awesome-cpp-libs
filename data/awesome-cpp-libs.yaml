@@ -127,12 +127,52 @@ CG:
       name: OpenFlipper
       repo: http://www.openflipper.org/
       intro: 'A flexible geometry modeling and processing framework.'
+    geometry-central:
+      name: geometry-central
+      repo: https://github.com/nmwsharp/geometry-central
+      intro: 'Geometry-central is a modern C++ library of data structures and algorithms for geometry processing, with a particular focus on surface meshes.'
+    pmp-library:
+      name: Polygon Mesh Processing Library 
+      repo: https://github.com/pmp-library/pmp-library
+      intro: 'The Polygon Mesh Processing Library is a modern C++ open-source library for processing and visualizing polygon surface meshes.'
+    cinolib:
+      name: cinolib
+      repo: https://github.com/mlivesu/cinolib
+      intro: 'A generic programming header only C++ library for processing polygonal and polyhedral meshes.'
+    Easy3D:
+      name: Easy3D
+      repo: https://github.com/LiangliangNan/Easy3D
+      intro: 'Easy3D is an open-source library for 3D modeling, geometry processing, and rendering. It is implemented in C++ and designed with an emphasis on simplicity and efficiency.'
+
+  PointCloud Processing:
+    pcl:
+      name: Point Cloud Library (PCL)
+      repo: https://github.com/PointCloudLibrary/pcl
+      intro: 'The Point Cloud Library (PCL) is a standalone, large scale, open project for 2D/3D image and point cloud processing.'
+    cilantro:
+      name: cilantro
+      repo: https://github.com/kzampog/cilantro
+      intro: 'cilantro is a lean and fast C++ library for working with point cloud data.'
+    draco:
+      name: Draco
+      repo: https://github.com/google/draco
+      intro: 'Draco is a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to improve the storage and transmission of 3D graphics.'
+    CloudCompare:
+      name: CloudCompare
+      repo: https://github.com/CloudCompare/CloudCompare
+      intro: 'CloudCompare is a 3D point cloud (and triangular mesh) processing software. It was originally designed to perform comparison between two 3D points clouds (such as the ones obtained with a laser scanner) or between a point cloud and a triangular mesh. It relies on an octree structure that is highly optimized for this particular use-case. It was also meant to deal with huge point clouds (typically more than 10 million points, and up to 120 million with 2 GB of memory).'
+  
+  Visualization:
+    polyscope:
+      name: polyscope
+      repo: https://github.com/nmwsharp/polyscope
+      intro: 'olyscope is a C++/Python viewer and user interface for 3D data, like meshes and point clouds.'
 
   Triangulation:
     Triangle:
       name: Triangle
       repo: http://www.cs.cmu.edu/~quake/triangle.html
-      intro: 'A Two-Dimensional Quality Mesh Generator and Delaunay Triangulator.'
+      intro: 'A two-dimensional quality mesh generator and delaunay triangulator.'
 
   Transformation:
     manif:
@@ -149,6 +189,10 @@ CG:
       name: libpointmatcher
       repo: https://github.com/ethz-asl/libpointmatcher
       intro: 'libpointmatcher is a modular library implementing the Iterative Closest Point (ICP) algorithm for aligning point clouds. It has applications in robotics and computer vision. \nIt is released under a permissive BSD license.'
+    OpenGR:
+      name: OpenGR
+      repo: https://github.com/STORM-IRIT/OpenGR
+      intro: 'OpenGR is a set C++ libraries for 3D Global Registration. And it aims at providing several state of the art global registration algorithms for 3D data.'
     ICPCUDA:
       name: ICPCUDA
       repo: https://github.com/mp3guy/ICPCUDA
@@ -175,4 +219,7 @@ CG:
       name: quickhull
       repo: https://github.com/akuukka/quickhull
       intro: 'C++ implementation of the 3D QuickHull algorithm.'
-  
+    cork:
+      name: Cork Boolean Library
+      repo: https://github.com/gilbo/cork
+      intro: 'Cork is designed to support Boolean operations between triangle meshes.'

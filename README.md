@@ -23,6 +23,8 @@
   - [Multi-View Reconstruction](#multi-view-reconstruction)
 - [CG](#cg)
   - [Geometry Processing](#geometry-processing)
+  - [PointCloud Processing](#pointcloud-processing)
+  - [Visualization](#visualization)
   - [Triangulation](#triangulation)
   - [Transformation](#transformation)
   - [Registration](#registration)
@@ -187,11 +189,60 @@ The Visualization and Computer Graphics Library (VCGlib for short), a open sourc
 
 A flexible geometry modeling and processing framework.
 
+#### [geometry-central](https://github.com/nmwsharp/geometry-central)
+[![Watchers](https://img.shields.io/github/watchers/nmwsharp/geometry-central)](Watchers) [![Stars](https://img.shields.io/github/stars/nmwsharp/geometry-central)](Stars) [![Forks](https://img.shields.io/github/forks/nmwsharp/geometry-central)](Forks) [![License](https://img.shields.io/github/license/nmwsharp/geometry-central)](LICENSE)
+
+Geometry-central is a modern C++ library of data structures and algorithms for geometry processing, with a particular focus on surface meshes.
+
+#### [Polygon Mesh Processing Library](https://github.com/pmp-library/pmp-library)
+[![Watchers](https://img.shields.io/github/watchers/pmp-library/pmp-library)](Watchers) [![Stars](https://img.shields.io/github/stars/pmp-library/pmp-library)](Stars) [![Forks](https://img.shields.io/github/forks/pmp-library/pmp-library)](Forks) [![License](https://img.shields.io/github/license/pmp-library/pmp-library)](LICENSE)
+
+The Polygon Mesh Processing Library is a modern C++ open-source library for processing and visualizing polygon surface meshes.
+
+#### [cinolib](https://github.com/mlivesu/cinolib)
+[![Watchers](https://img.shields.io/github/watchers/mlivesu/cinolib)](Watchers) [![Stars](https://img.shields.io/github/stars/mlivesu/cinolib)](Stars) [![Forks](https://img.shields.io/github/forks/mlivesu/cinolib)](Forks) [![License](https://img.shields.io/github/license/mlivesu/cinolib)](LICENSE)
+
+A generic programming header only C++ library for processing polygonal and polyhedral meshes.
+
+#### [Easy3D](https://github.com/LiangliangNan/Easy3D)
+[![Watchers](https://img.shields.io/github/watchers/LiangliangNan/Easy3D)](Watchers) [![Stars](https://img.shields.io/github/stars/LiangliangNan/Easy3D)](Stars) [![Forks](https://img.shields.io/github/forks/LiangliangNan/Easy3D)](Forks) [![License](https://img.shields.io/github/license/LiangliangNan/Easy3D)](LICENSE)
+
+Easy3D is an open-source library for 3D modeling, geometry processing, and rendering. It is implemented in C++ and designed with an emphasis on simplicity and efficiency.
+
+### PointCloud Processing
+
+#### [Point Cloud Library (PCL)](https://github.com/PointCloudLibrary/pcl)
+[![Watchers](https://img.shields.io/github/watchers/PointCloudLibrary/pcl)](Watchers) [![Stars](https://img.shields.io/github/stars/PointCloudLibrary/pcl)](Stars) [![Forks](https://img.shields.io/github/forks/PointCloudLibrary/pcl)](Forks) [![License](https://img.shields.io/github/license/PointCloudLibrary/pcl)](LICENSE)
+
+The Point Cloud Library (PCL) is a standalone, large scale, open project for 2D/3D image and point cloud processing.
+
+#### [cilantro](https://github.com/kzampog/cilantro)
+[![Watchers](https://img.shields.io/github/watchers/kzampog/cilantro)](Watchers) [![Stars](https://img.shields.io/github/stars/kzampog/cilantro)](Stars) [![Forks](https://img.shields.io/github/forks/kzampog/cilantro)](Forks) [![License](https://img.shields.io/github/license/kzampog/cilantro)](LICENSE)
+
+cilantro is a lean and fast C++ library for working with point cloud data.
+
+#### [Draco](https://github.com/google/draco)
+[![Watchers](https://img.shields.io/github/watchers/google/draco)](Watchers) [![Stars](https://img.shields.io/github/stars/google/draco)](Stars) [![Forks](https://img.shields.io/github/forks/google/draco)](Forks) [![License](https://img.shields.io/github/license/google/draco)](LICENSE)
+
+Draco is a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to improve the storage and transmission of 3D graphics.
+
+#### [CloudCompare](https://github.com/CloudCompare/CloudCompare)
+[![Watchers](https://img.shields.io/github/watchers/CloudCompare/CloudCompare)](Watchers) [![Stars](https://img.shields.io/github/stars/CloudCompare/CloudCompare)](Stars) [![Forks](https://img.shields.io/github/forks/CloudCompare/CloudCompare)](Forks) [![License](https://img.shields.io/github/license/CloudCompare/CloudCompare)](LICENSE)
+
+CloudCompare is a 3D point cloud (and triangular mesh) processing software. It was originally designed to perform comparison between two 3D points clouds (such as the ones obtained with a laser scanner) or between a point cloud and a triangular mesh. It relies on an octree structure that is highly optimized for this particular use-case. It was also meant to deal with huge point clouds (typically more than 10 million points, and up to 120 million with 2 GB of memory).
+
+### Visualization
+
+#### [polyscope](https://github.com/nmwsharp/polyscope)
+[![Watchers](https://img.shields.io/github/watchers/nmwsharp/polyscope)](Watchers) [![Stars](https://img.shields.io/github/stars/nmwsharp/polyscope)](Stars) [![Forks](https://img.shields.io/github/forks/nmwsharp/polyscope)](Forks) [![License](https://img.shields.io/github/license/nmwsharp/polyscope)](LICENSE)
+
+olyscope is a C++/Python viewer and user interface for 3D data, like meshes and point clouds.
+
 ### Triangulation
 
 #### [Triangle](http://www.cs.cmu.edu/~quake/triangle.html)
 
-A Two-Dimensional Quality Mesh Generator and Delaunay Triangulator.
+A two-dimensional quality mesh generator and delaunay triangulator.
 
 ### Transformation
 
@@ -211,6 +262,11 @@ Sophus is a c++ implementation of Lie groups commonly used for 2d and 3d geometr
 [![Watchers](https://img.shields.io/github/watchers/ethz-asl/libpointmatcher)](Watchers) [![Stars](https://img.shields.io/github/stars/ethz-asl/libpointmatcher)](Stars) [![Forks](https://img.shields.io/github/forks/ethz-asl/libpointmatcher)](Forks) [![License](https://img.shields.io/github/license/ethz-asl/libpointmatcher)](LICENSE)
 
 libpointmatcher is a modular library implementing the Iterative Closest Point (ICP) algorithm for aligning point clouds. It has applications in robotics and computer vision. \nIt is released under a permissive BSD license.
+
+#### [OpenGR](https://github.com/STORM-IRIT/OpenGR)
+[![Watchers](https://img.shields.io/github/watchers/STORM-IRIT/OpenGR)](Watchers) [![Stars](https://img.shields.io/github/stars/STORM-IRIT/OpenGR)](Stars) [![Forks](https://img.shields.io/github/forks/STORM-IRIT/OpenGR)](Forks) [![License](https://img.shields.io/github/license/STORM-IRIT/OpenGR)](LICENSE)
+
+OpenGR is a set C++ libraries for 3D Global Registration. And it aims at providing several state of the art global registration algorithms for 3D data.
 
 #### [ICPCUDA](https://github.com/mp3guy/ICPCUDA)
 [![Watchers](https://img.shields.io/github/watchers/mp3guy/ICPCUDA)](Watchers) [![Stars](https://img.shields.io/github/stars/mp3guy/ICPCUDA)](Stars) [![Forks](https://img.shields.io/github/forks/mp3guy/ICPCUDA)](Forks) [![License](https://img.shields.io/github/license/mp3guy/ICPCUDA)](LICENSE)
@@ -241,6 +297,11 @@ FCL is a library for performing three types of proximity queries on a pair of ge
 [![Watchers](https://img.shields.io/github/watchers/akuukka/quickhull)](Watchers) [![Stars](https://img.shields.io/github/stars/akuukka/quickhull)](Stars) [![Forks](https://img.shields.io/github/forks/akuukka/quickhull)](Forks) [![License](https://img.shields.io/github/license/akuukka/quickhull)](LICENSE)
 
 C++ implementation of the 3D QuickHull algorithm.
+
+#### [Cork Boolean Library](https://github.com/gilbo/cork)
+[![Watchers](https://img.shields.io/github/watchers/gilbo/cork)](Watchers) [![Stars](https://img.shields.io/github/stars/gilbo/cork)](Stars) [![Forks](https://img.shields.io/github/forks/gilbo/cork)](Forks) [![License](https://img.shields.io/github/license/gilbo/cork)](LICENSE)
+
+Cork is designed to support Boolean operations between triangle meshes.
 
 
 ## [Back to Top](#table-of-contents)
