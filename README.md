@@ -9,6 +9,7 @@
 ## Table of Contents
 
 - [Cpp](#cpp)
+  - [Base Libraries](#base-libraries)
   - [Command Line Parser](#command-line-parser)
   - [Logging](#logging)
   - [Format String](#format-string)
@@ -18,6 +19,7 @@
 - [Math](#math)
   - [Linear Algebra](#linear-algebra)
   - [Optimization](#optimization)
+  - [Statistics](#statistics)
 - [CV](#cv)
   - [Image Processing](#image-processing)
   - [Multi-View Reconstruction](#multi-view-reconstruction)
@@ -34,6 +36,18 @@
 
 -----
 ## Cpp
+
+### Base Libraries
+
+#### [stb](https://github.com/nothings/stb)
+[![Watchers](https://img.shields.io/github/watchers/nothings/stb)](Watchers) [![Stars](https://img.shields.io/github/stars/nothings/stb)](Stars) [![Forks](https://img.shields.io/github/forks/nothings/stb)](Forks) [![License](https://img.shields.io/github/license/nothings/stb)](LICENSE)
+
+single-file public domain (or MIT licensed) libraries for C/C++
+
+#### [abseil-cpp](https://github.com/abseil/abseil-cpp)
+[![Watchers](https://img.shields.io/github/watchers/abseil/abseil-cpp)](Watchers) [![Stars](https://img.shields.io/github/stars/abseil/abseil-cpp)](Stars) [![Forks](https://img.shields.io/github/forks/abseil/abseil-cpp)](Forks) [![License](https://img.shields.io/github/license/abseil/abseil-cpp)](LICENSE)
+
+Abseil is an open-source collection of C++ code (compliant to C++11) designed to augment the C++ standard library.
 
 ### Command Line Parser
 
@@ -130,6 +144,13 @@ Ipopt (Interior Point OPTimizer) is a software package for large-scale nonlinear
 
 NLopt is a library for nonlinear local and global optimization, for functions with and without gradient information. It is designed as a simple, unified interface and packaging of several free/open-source nonlinear optimization libraries.
 
+### Statistics
+
+#### [stats](https://github.com/kthohr/stats)
+[![Watchers](https://img.shields.io/github/watchers/kthohr/stats)](Watchers) [![Stars](https://img.shields.io/github/stars/kthohr/stats)](Stars) [![Forks](https://img.shields.io/github/forks/kthohr/stats)](Forks) [![License](https://img.shields.io/github/license/kthohr/stats)](LICENSE)
+
+StatsLib is a templated C++ library of statistical distribution functions, featuring unique compile-time computing capabilities and seamless integration with several popular linear algebra libraries.
+
 ## CV
 
 ### Image Processing
@@ -138,11 +159,6 @@ NLopt is a library for nonlinear local and global optimization, for functions wi
 [![Watchers](https://img.shields.io/github/watchers/opencv/opencv)](Watchers) [![Stars](https://img.shields.io/github/stars/opencv/opencv)](Stars) [![Forks](https://img.shields.io/github/forks/opencv/opencv)](Forks) [![License](https://img.shields.io/github/license/opencv/opencv)](LICENSE)
 
 Open Source Computer Vision Library.
-
-#### [stb](https://github.com/nothings/stb)
-[![Watchers](https://img.shields.io/github/watchers/nothings/stb)](Watchers) [![Stars](https://img.shields.io/github/stars/nothings/stb)](Stars) [![Forks](https://img.shields.io/github/forks/nothings/stb)](Forks) [![License](https://img.shields.io/github/license/nothings/stb)](LICENSE)
-
-single-file public domain (or MIT licensed) libraries for C/C++
 
 ### Multi-View Reconstruction
 
@@ -160,6 +176,11 @@ OpenMVS (Multi-View Stereo) is a library for computer-vision scientists and espe
 [![Watchers](https://img.shields.io/github/watchers/colmap/colmap)](Watchers) [![Stars](https://img.shields.io/github/stars/colmap/colmap)](Stars) [![Forks](https://img.shields.io/github/forks/colmap/colmap)](Forks) [![License](https://img.shields.io/github/license/colmap/colmap)](LICENSE)
 
 COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface. It offers a wide range of features for reconstruction of ordered and unordered image collections. The software is licensed under the new BSD license.
+
+#### [TheiaSfM](https://github.com/sweeneychris/TheiaSfM)
+[![Watchers](https://img.shields.io/github/watchers/sweeneychris/TheiaSfM)](Watchers) [![Stars](https://img.shields.io/github/stars/sweeneychris/TheiaSfM)](Stars) [![Forks](https://img.shields.io/github/forks/sweeneychris/TheiaSfM)](Forks) [![License](https://img.shields.io/github/license/sweeneychris/TheiaSfM)](LICENSE)
+
+Theia is an open source library for multiview geometry and structure from motion. It is designed to be very efficient, scalable, and accurate. All steps of the pipeline are designed to be modular so that code is easy to read and easy to extend.
 
 ## CG
 
