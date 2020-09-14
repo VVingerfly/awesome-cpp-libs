@@ -16,6 +16,7 @@
   - [Testing](#testing)
   - [Serialization](#serialization)
   - [GUI](#gui)
+  - [Visualization](#visualization)
 - [Math](#math)
   - [Linear Algebra](#linear-algebra)
   - [Optimization](#optimization)
@@ -28,10 +29,13 @@
   - [PointCloud Processing](#pointcloud-processing)
   - [Visualization](#visualization)
   - [Triangulation](#triangulation)
+  - [Texture & Atlas](#texture-&-atlas)
   - [Transformation](#transformation)
   - [Registration](#registration)
   - [Nearest Neighbors](#nearest-neighbors)
   - [Collision](#collision)
+  - [Rendering](#rendering)
+  - [Simulation](#simulation)
   - [Others](#others)
 
 -----
@@ -111,6 +115,13 @@ Dear ImGui is a bloat-free graphical user interface library for C++. It outputs 
 
 NanoGUI is a minimalistic cross-platform widget library for OpenGL 3.x or higher. It supports automatic layout generation, stateful C++11 lambdas callbacks, a variety of useful widget types and Retina-capable rendering on Apple devices thanks to NanoVG by Mikko Mononen. Python bindings of all functionality are provided using pybind11.
 
+### Visualization
+
+#### [matplotplusplus](https://github.com/alandefreitas/matplotplusplus)
+[![Watchers](https://img.shields.io/github/watchers/alandefreitas/matplotplusplus)](Watchers) [![Stars](https://img.shields.io/github/stars/alandefreitas/matplotplusplus)](Stars) [![Forks](https://img.shields.io/github/forks/alandefreitas/matplotplusplus)](Forks) [![License](https://img.shields.io/github/license/alandefreitas/matplotplusplus)](LICENSE)
+
+Matplot++: A C++ Graphics Library for Data Visualization.
+
 ## Math
 
 ### Linear Algebra
@@ -123,6 +134,11 @@ Eigen is a C++ template library for linear algebra: matrices, vectors, numerical
 [![Watchers](https://img.shields.io/github/watchers/sgorsten/linalg)](Watchers) [![Stars](https://img.shields.io/github/stars/sgorsten/linalg)](Stars) [![Forks](https://img.shields.io/github/forks/sgorsten/linalg)](Forks) [![License](https://img.shields.io/github/license/sgorsten/linalg)](LICENSE)
 
 `linalg.h` is a single header, public domain, short vector math library for C++.
+
+#### [NumCpp](https://github.com/dpilger26/NumCpp)
+[![Watchers](https://img.shields.io/github/watchers/dpilger26/NumCpp)](Watchers) [![Stars](https://img.shields.io/github/stars/dpilger26/NumCpp)](Stars) [![Forks](https://img.shields.io/github/forks/dpilger26/NumCpp)](Forks) [![License](https://img.shields.io/github/license/dpilger26/NumCpp)](LICENSE)
+
+NumCpp is a C++ implementation of the Python Numpy library.
 
 ### Optimization
 
@@ -182,6 +198,11 @@ COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (M
 
 Theia is an open source library for multiview geometry and structure from motion. It is designed to be very efficient, scalable, and accurate. All steps of the pipeline are designed to be modular so that code is easy to read and easy to extend.
 
+#### [AliceVision](https://github.com/alicevision/AliceVision)
+[![Watchers](https://img.shields.io/github/watchers/alicevision/AliceVision)](Watchers) [![Stars](https://img.shields.io/github/stars/alicevision/AliceVision)](Stars) [![Forks](https://img.shields.io/github/forks/alicevision/AliceVision)](Forks) [![License](https://img.shields.io/github/license/alicevision/AliceVision)](LICENSE)
+
+AliceVision is a Photogrammetric Computer Vision Framework which provides a 3D Reconstruction and Camera Tracking algorithms.
+
 ## CG
 
 ### Geometry Processing
@@ -230,6 +251,11 @@ A generic programming header only C++ library for processing polygonal and polyh
 
 Easy3D is an open-source library for 3D modeling, geometry processing, and rendering. It is implemented in C++ and designed with an emphasis on simplicity and efficiency.
 
+#### [starlab](https://github.com/OpenGP/starlab)
+[![Watchers](https://img.shields.io/github/watchers/OpenGP/starlab)](Watchers) [![Stars](https://img.shields.io/github/stars/OpenGP/starlab)](Stars) [![Forks](https://img.shields.io/github/forks/OpenGP/starlab)](Forks) [![License](https://img.shields.io/github/license/OpenGP/starlab)](LICENSE)
+
+A lightweight, modular, and cross-platform (Windows, OSX, Linux) 3D geometry processing environment.
+
 ### PointCloud Processing
 
 #### [Point Cloud Library (PCL)](https://github.com/PointCloudLibrary/pcl)
@@ -265,6 +291,23 @@ olyscope is a C++/Python viewer and user interface for 3D data, like meshes and 
 
 A two-dimensional quality mesh generator and delaunay triangulator.
 
+### Texture & Atlas
+
+#### [mvs-texturing](https://github.com/nmoehrle/mvs-texturing)
+[![Watchers](https://img.shields.io/github/watchers/nmoehrle/mvs-texturing)](Watchers) [![Stars](https://img.shields.io/github/stars/nmoehrle/mvs-texturing)](Stars) [![Forks](https://img.shields.io/github/forks/nmoehrle/mvs-texturing)](Forks) [![License](https://img.shields.io/github/license/nmoehrle/mvs-texturing)](LICENSE)
+
+MVS-Texturing is a project that focuses on texturing 3D reconstructions from multi-view stereo images.
+
+#### [xatlas](https://github.com/jpcy/xatlas)
+[![Watchers](https://img.shields.io/github/watchers/jpcy/xatlas)](Watchers) [![Stars](https://img.shields.io/github/stars/jpcy/xatlas)](Stars) [![Forks](https://img.shields.io/github/forks/jpcy/xatlas)](Forks) [![License](https://img.shields.io/github/license/jpcy/xatlas)](LICENSE)
+
+xatlas is a small C++11 library with no external dependencies that generates unique texture coordinates suitable for baking lightmaps or texture painting.
+
+#### [UVAtlas](https://github.com/Microsoft/UVAtlas)
+[![Watchers](https://img.shields.io/github/watchers/Microsoft/UVAtlas)](Watchers) [![Stars](https://img.shields.io/github/stars/Microsoft/UVAtlas)](Stars) [![Forks](https://img.shields.io/github/forks/Microsoft/UVAtlas)](Forks) [![License](https://img.shields.io/github/license/Microsoft/UVAtlas)](LICENSE)
+
+UVAtlas is a shared source library for creating and packing an isochart texture atlas.
+
 ### Transformation
 
 #### [manif](https://github.com/artivis/manif)
@@ -289,6 +332,11 @@ libpointmatcher is a modular library implementing the Iterative Closest Point (I
 
 OpenGR is a set C++ libraries for 3D Global Registration. And it aims at providing several state of the art global registration algorithms for 3D data.
 
+#### [FastGlobalRegistration](https://github.com/intel-isl/FastGlobalRegistration)
+[![Watchers](https://img.shields.io/github/watchers/intel-isl/FastGlobalRegistration)](Watchers) [![Stars](https://img.shields.io/github/stars/intel-isl/FastGlobalRegistration)](Stars) [![Forks](https://img.shields.io/github/forks/intel-isl/FastGlobalRegistration)](Forks) [![License](https://img.shields.io/github/license/intel-isl/FastGlobalRegistration)](LICENSE)
+
+FastGlobalRegistration is an open source C++ implementation based on the technique presented in the paper "Fast Global Registration, ECCV 2016."
+
 #### [ICPCUDA](https://github.com/mp3guy/ICPCUDA)
 [![Watchers](https://img.shields.io/github/watchers/mp3guy/ICPCUDA)](Watchers) [![Stars](https://img.shields.io/github/stars/mp3guy/ICPCUDA)](Stars) [![Forks](https://img.shields.io/github/forks/mp3guy/ICPCUDA)](Forks) [![License](https://img.shields.io/github/license/mp3guy/ICPCUDA)](LICENSE)
 
@@ -311,6 +359,25 @@ A C++11 header-only library for Nearest Neighbor (NN) search with KD-trees.
 [![Watchers](https://img.shields.io/github/watchers/flexible-collision-library/fcl)](Watchers) [![Stars](https://img.shields.io/github/stars/flexible-collision-library/fcl)](Stars) [![Forks](https://img.shields.io/github/forks/flexible-collision-library/fcl)](Forks) [![License](https://img.shields.io/github/license/flexible-collision-library/fcl)](LICENSE)
 
 FCL is a library for performing three types of proximity queries on a pair of geometric models composed of triangles.
+
+### Rendering
+
+#### [bgfx](https://github.com/bkaradzic/bgfx)
+[![Watchers](https://img.shields.io/github/watchers/bkaradzic/bgfx)](Watchers) [![Stars](https://img.shields.io/github/stars/bkaradzic/bgfx)](Stars) [![Forks](https://img.shields.io/github/forks/bkaradzic/bgfx)](Forks) [![License](https://img.shields.io/github/license/bkaradzic/bgfx)](LICENSE)
+
+bgfx is a cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
+
+#### [tinyrenderer](https://github.com/ssloy/tinyrenderer)
+[![Watchers](https://img.shields.io/github/watchers/ssloy/tinyrenderer)](Watchers) [![Stars](https://img.shields.io/github/stars/ssloy/tinyrenderer)](Stars) [![Forks](https://img.shields.io/github/forks/ssloy/tinyrenderer)](Forks) [![License](https://img.shields.io/github/license/ssloy/tinyrenderer)](LICENSE)
+
+A tiny yet powerful rendering library.
+
+### Simulation
+
+#### [bullet3](https://github.com/bulletphysics/bullet3)
+[![Watchers](https://img.shields.io/github/watchers/bulletphysics/bullet3)](Watchers) [![Stars](https://img.shields.io/github/stars/bulletphysics/bullet3)](Stars) [![Forks](https://img.shields.io/github/forks/bulletphysics/bullet3)](Forks) [![License](https://img.shields.io/github/license/bulletphysics/bullet3)](LICENSE)
+
+Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.
 
 ### Others
 
