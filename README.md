@@ -17,19 +17,21 @@
   - [Serialization](#serialization)
   - [GUI](#gui)
   - [Visualization](#visualization)
+  - [GPU](#gpu)
 - [Math](#math)
   - [Linear Algebra](#linear-algebra)
   - [Optimization](#optimization)
   - [Statistics](#statistics)
 - [CV](#cv)
   - [Image Processing](#image-processing)
+  - [SfM](#sfm)
   - [Multi-View Reconstruction](#multi-view-reconstruction)
 - [CG](#cg)
   - [Geometry Processing](#geometry-processing)
   - [PointCloud Processing](#pointcloud-processing)
   - [Visualization](#visualization)
   - [Triangulation](#triangulation)
-  - [Texture & Atlas](#texture-&-atlas)
+  - [Texture/Atlas](#texture/atlas)
   - [Transformation](#transformation)
   - [Registration](#registration)
   - [Nearest Neighbors](#nearest-neighbors)
@@ -65,12 +67,17 @@ Lightweight C++ command line option parser.
 #### [spdlog](https://github.com/gabime/spdlog)
 [![Watchers](https://img.shields.io/github/watchers/gabime/spdlog)](Watchers) [![Stars](https://img.shields.io/github/stars/gabime/spdlog)](Stars) [![Forks](https://img.shields.io/github/forks/gabime/spdlog)](Forks) [![License](https://img.shields.io/github/license/gabime/spdlog)](LICENSE)
 
-Very fast, header-only/compiled, C++ logging library.
+spdlog is a very fast, header-only/compiled, C++ logging library.
 
 #### [plog](https://github.com/SergiusTheBest/plog)
 [![Watchers](https://img.shields.io/github/watchers/SergiusTheBest/plog)](Watchers) [![Stars](https://img.shields.io/github/stars/SergiusTheBest/plog)](Stars) [![Forks](https://img.shields.io/github/forks/SergiusTheBest/plog)](Forks) [![License](https://img.shields.io/github/license/SergiusTheBest/plog)](LICENSE)
 
-Portable, simple and extensible C++ logging library, pretty powerful logging library in about 1000 lines of code.
+plog is a portable, simple and extensible C++ logging library, pretty powerful logging library in about 1000 lines of code.
+
+#### [loguru](https://github.com/emilk/loguru)
+[![Watchers](https://img.shields.io/github/watchers/emilk/loguru)](Watchers) [![Stars](https://img.shields.io/github/stars/emilk/loguru)](Stars) [![Forks](https://img.shields.io/github/forks/emilk/loguru)](Forks) [![License](https://img.shields.io/github/license/emilk/loguru)](LICENSE)
+
+loguru is a lightweight and flexible C++ logging library.
 
 ### Format String
 
@@ -101,7 +108,17 @@ cereal is a header-only C++11 serialization library. cereal takes arbitrary data
 #### [json](https://github.com/nlohmann/json)
 [![Watchers](https://img.shields.io/github/watchers/nlohmann/json)](Watchers) [![Stars](https://img.shields.io/github/stars/nlohmann/json)](Stars) [![Forks](https://img.shields.io/github/forks/nlohmann/json)](Forks) [![License](https://img.shields.io/github/license/nlohmann/json)](LICENSE)
 
-JSON for Modern C++ 
+JSON for Modern C++
+
+#### [jsoncpp](https://github.com/open-source-parsers/jsoncpp)
+[![Watchers](https://img.shields.io/github/watchers/open-source-parsers/jsoncpp)](Watchers) [![Stars](https://img.shields.io/github/stars/open-source-parsers/jsoncpp)](Stars) [![Forks](https://img.shields.io/github/forks/open-source-parsers/jsoncpp)](Forks) [![License](https://img.shields.io/github/license/open-source-parsers/jsoncpp)](LICENSE)
+
+JsonCpp is a C++ library that allows manipulating JSON values, including serialization and deserialization to and from strings.
+
+#### [rapidjson](https://github.com/Tencent/rapidjson)
+[![Watchers](https://img.shields.io/github/watchers/Tencent/rapidjson)](Watchers) [![Stars](https://img.shields.io/github/stars/Tencent/rapidjson)](Stars) [![Forks](https://img.shields.io/github/forks/Tencent/rapidjson)](Forks) [![License](https://img.shields.io/github/license/Tencent/rapidjson)](LICENSE)
+
+A fast JSON parser/generator for C++ with both SAX/DOM style API
 
 ### GUI
 
@@ -121,6 +138,23 @@ NanoGUI is a minimalistic cross-platform widget library for OpenGL 3.x or higher
 [![Watchers](https://img.shields.io/github/watchers/alandefreitas/matplotplusplus)](Watchers) [![Stars](https://img.shields.io/github/stars/alandefreitas/matplotplusplus)](Stars) [![Forks](https://img.shields.io/github/forks/alandefreitas/matplotplusplus)](Forks) [![License](https://img.shields.io/github/license/alandefreitas/matplotplusplus)](LICENSE)
 
 Matplot++: A C++ Graphics Library for Data Visualization.
+
+#### [implot](https://github.com/epezent/implot)
+[![Watchers](https://img.shields.io/github/watchers/epezent/implot)](Watchers) [![Stars](https://img.shields.io/github/stars/epezent/implot)](Stars) [![Forks](https://img.shields.io/github/forks/epezent/implot)](Forks) [![License](https://img.shields.io/github/license/epezent/implot)](LICENSE)
+
+ImPlot is an immediate mode, GPU accelerated plotting library for Dear ImGui.
+
+### GPU
+
+#### [compute](https://github.com/boostorg/compute)
+[![Watchers](https://img.shields.io/github/watchers/boostorg/compute)](Watchers) [![Stars](https://img.shields.io/github/stars/boostorg/compute)](Stars) [![Forks](https://img.shields.io/github/forks/boostorg/compute)](Forks) [![License](https://img.shields.io/github/license/boostorg/compute)](LICENSE)
+
+A C++ GPU Computing Library for OpenCL
+
+#### [vexcl](https://github.com/ddemidov/vexcl)
+[![Watchers](https://img.shields.io/github/watchers/ddemidov/vexcl)](Watchers) [![Stars](https://img.shields.io/github/stars/ddemidov/vexcl)](Stars) [![Forks](https://img.shields.io/github/forks/ddemidov/vexcl)](Forks) [![License](https://img.shields.io/github/license/ddemidov/vexcl)](LICENSE)
+
+VexCL is a C++ vector expression template library for OpenCL/CUDA/OpenMP
 
 ## Math
 
@@ -160,6 +194,11 @@ Ipopt (Interior Point OPTimizer) is a software package for large-scale nonlinear
 
 NLopt is a library for nonlinear local and global optimization, for functions with and without gradient information. It is designed as a simple, unified interface and packaging of several free/open-source nonlinear optimization libraries.
 
+#### [AMGCL](https://github.com/ddemidov/amgcl)
+[![Watchers](https://img.shields.io/github/watchers/ddemidov/amgcl)](Watchers) [![Stars](https://img.shields.io/github/stars/ddemidov/amgcl)](Stars) [![Forks](https://img.shields.io/github/forks/ddemidov/amgcl)](Forks) [![License](https://img.shields.io/github/license/ddemidov/amgcl)](LICENSE)
+
+AMGCL is a header-only C++ library for solving large sparse linear systems with algebraic multigrid (AMG) method.
+
 ### Statistics
 
 #### [stats](https://github.com/kthohr/stats)
@@ -176,6 +215,38 @@ StatsLib is a templated C++ library of statistical distribution functions, featu
 
 Open Source Computer Vision Library.
 
+#### [ccv](https://github.com/liuliu/ccv)
+[![Watchers](https://img.shields.io/github/watchers/liuliu/ccv)](Watchers) [![Stars](https://img.shields.io/github/stars/liuliu/ccv)](Stars) [![Forks](https://img.shields.io/github/forks/liuliu/ccv)](Forks) [![License](https://img.shields.io/github/license/liuliu/ccv)](LICENSE)
+
+C-based/Cached/Core Computer Vision Library, A Modern Computer Vision Library.
+
+#### [CImg](https://github.com/dtschump/CImg)
+[![Watchers](https://img.shields.io/github/watchers/dtschump/CImg)](Watchers) [![Stars](https://img.shields.io/github/stars/dtschump/CImg)](Stars) [![Forks](https://img.shields.io/github/forks/dtschump/CImg)](Forks) [![License](https://img.shields.io/github/license/dtschump/CImg)](LICENSE)
+
+CImg Library is a small and open-source C++ toolkit for image processing.
+
+#### [VLFeat](https://github.com/vlfeat/vlfeat)
+[![Watchers](https://img.shields.io/github/watchers/vlfeat/vlfeat)](Watchers) [![Stars](https://img.shields.io/github/stars/vlfeat/vlfeat)](Stars) [![Forks](https://img.shields.io/github/forks/vlfeat/vlfeat)](Forks) [![License](https://img.shields.io/github/license/vlfeat/vlfeat)](LICENSE)
+
+The VLFeat open source library implements popular computer vision algorithms specialising in image understanding and local featurexs extraction and matching.
+
+### SfM
+
+#### [TheiaSfM](https://github.com/sweeneychris/TheiaSfM)
+[![Watchers](https://img.shields.io/github/watchers/sweeneychris/TheiaSfM)](Watchers) [![Stars](https://img.shields.io/github/stars/sweeneychris/TheiaSfM)](Stars) [![Forks](https://img.shields.io/github/forks/sweeneychris/TheiaSfM)](Forks) [![License](https://img.shields.io/github/license/sweeneychris/TheiaSfM)](LICENSE)
+
+Theia is an open source library for multiview geometry and structure from motion. It is designed to be very efficient, scalable, and accurate. All steps of the pipeline are designed to be modular so that code is easy to read and easy to extend.
+
+#### [COLMAP](https://github.com/colmap/colmap)
+[![Watchers](https://img.shields.io/github/watchers/colmap/colmap)](Watchers) [![Stars](https://img.shields.io/github/stars/colmap/colmap)](Stars) [![Forks](https://img.shields.io/github/forks/colmap/colmap)](Forks) [![License](https://img.shields.io/github/license/colmap/colmap)](LICENSE)
+
+COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface. It offers a wide range of features for reconstruction of ordered and unordered image collections. The software is licensed under the new BSD license.
+
+#### [bundler_sfm](https://github.com/snavely/bundler_sfm)
+[![Watchers](https://img.shields.io/github/watchers/snavely/bundler_sfm)](Watchers) [![Stars](https://img.shields.io/github/stars/snavely/bundler_sfm)](Stars) [![Forks](https://img.shields.io/github/forks/snavely/bundler_sfm)](Forks) [![License](https://img.shields.io/github/license/snavely/bundler_sfm)](LICENSE)
+
+Bundler Structure from Motion Toolkit
+
 ### Multi-View Reconstruction
 
 #### [OpenMVG](https://github.com/openMVG/openMVG)
@@ -187,16 +258,6 @@ OpenMVG (Multiple View Geometry) is a library for computer-vision scientists and
 [![Watchers](https://img.shields.io/github/watchers/cdcseacave/openMVS)](Watchers) [![Stars](https://img.shields.io/github/stars/cdcseacave/openMVS)](Stars) [![Forks](https://img.shields.io/github/forks/cdcseacave/openMVS)](Forks) [![License](https://img.shields.io/github/license/cdcseacave/openMVS)](LICENSE)
 
 OpenMVS (Multi-View Stereo) is a library for computer-vision scientists and especially targeted to the Multi-View Stereo reconstruction community. The input is a set of camera poses plus the sparse point-cloud and the output is a textured mesh.
-
-#### [COLMAP](https://github.com/colmap/colmap)
-[![Watchers](https://img.shields.io/github/watchers/colmap/colmap)](Watchers) [![Stars](https://img.shields.io/github/stars/colmap/colmap)](Stars) [![Forks](https://img.shields.io/github/forks/colmap/colmap)](Forks) [![License](https://img.shields.io/github/license/colmap/colmap)](LICENSE)
-
-COLMAP is a general-purpose Structure-from-Motion (SfM) and Multi-View Stereo (MVS) pipeline with a graphical and command-line interface. It offers a wide range of features for reconstruction of ordered and unordered image collections. The software is licensed under the new BSD license.
-
-#### [TheiaSfM](https://github.com/sweeneychris/TheiaSfM)
-[![Watchers](https://img.shields.io/github/watchers/sweeneychris/TheiaSfM)](Watchers) [![Stars](https://img.shields.io/github/stars/sweeneychris/TheiaSfM)](Stars) [![Forks](https://img.shields.io/github/forks/sweeneychris/TheiaSfM)](Forks) [![License](https://img.shields.io/github/license/sweeneychris/TheiaSfM)](LICENSE)
-
-Theia is an open source library for multiview geometry and structure from motion. It is designed to be very efficient, scalable, and accurate. All steps of the pipeline are designed to be modular so that code is easy to read and easy to extend.
 
 #### [AliceVision](https://github.com/alicevision/AliceVision)
 [![Watchers](https://img.shields.io/github/watchers/alicevision/AliceVision)](Watchers) [![Stars](https://img.shields.io/github/stars/alicevision/AliceVision)](Stars) [![Forks](https://img.shields.io/github/forks/alicevision/AliceVision)](Forks) [![License](https://img.shields.io/github/license/alicevision/AliceVision)](LICENSE)
@@ -283,7 +344,7 @@ CloudCompare is a 3D point cloud (and triangular mesh) processing software. It w
 #### [polyscope](https://github.com/nmwsharp/polyscope)
 [![Watchers](https://img.shields.io/github/watchers/nmwsharp/polyscope)](Watchers) [![Stars](https://img.shields.io/github/stars/nmwsharp/polyscope)](Stars) [![Forks](https://img.shields.io/github/forks/nmwsharp/polyscope)](Forks) [![License](https://img.shields.io/github/license/nmwsharp/polyscope)](LICENSE)
 
-olyscope is a C++/Python viewer and user interface for 3D data, like meshes and point clouds.
+polyscope is a C++/Python viewer and user interface for 3D data, like meshes and point clouds.
 
 ### Triangulation
 
@@ -291,7 +352,7 @@ olyscope is a C++/Python viewer and user interface for 3D data, like meshes and 
 
 A two-dimensional quality mesh generator and delaunay triangulator.
 
-### Texture & Atlas
+### Texture/Atlas
 
 #### [mvs-texturing](https://github.com/nmoehrle/mvs-texturing)
 [![Watchers](https://img.shields.io/github/watchers/nmoehrle/mvs-texturing)](Watchers) [![Stars](https://img.shields.io/github/stars/nmoehrle/mvs-texturing)](Stars) [![Forks](https://img.shields.io/github/forks/nmoehrle/mvs-texturing)](Forks) [![License](https://img.shields.io/github/license/nmoehrle/mvs-texturing)](LICENSE)
@@ -371,6 +432,11 @@ bgfx is a cross-platform, graphics API agnostic, "Bring Your Own Engine/Framewor
 [![Watchers](https://img.shields.io/github/watchers/ssloy/tinyrenderer)](Watchers) [![Stars](https://img.shields.io/github/stars/ssloy/tinyrenderer)](Stars) [![Forks](https://img.shields.io/github/forks/ssloy/tinyrenderer)](Forks) [![License](https://img.shields.io/github/license/ssloy/tinyrenderer)](LICENSE)
 
 A tiny yet powerful rendering library.
+
+#### [yocto-gl](https://github.com/xelatihy/yocto-gl)
+[![Watchers](https://img.shields.io/github/watchers/xelatihy/yocto-gl)](Watchers) [![Stars](https://img.shields.io/github/stars/xelatihy/yocto-gl)](Stars) [![Forks](https://img.shields.io/github/forks/xelatihy/yocto-gl)](Forks) [![License](https://img.shields.io/github/license/xelatihy/yocto-gl)](LICENSE)
+
+Yocto/GL is a collection of small C++17 libraries for building physically-based graphics algorithms released under the MIT license.
 
 ### Simulation
 
