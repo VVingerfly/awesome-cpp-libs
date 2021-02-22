@@ -24,7 +24,7 @@
   - [Statistics](#statistics)
 - [CV](#cv)
   - [Image Processing](#image-processing)
-  - [SfM](#sfm)
+  - [Structure from Motion](#structure-from-motion)
   - [Multi-View Reconstruction](#multi-view-reconstruction)
 - [CG](#cg)
   - [Geometry Processing](#geometry-processing)
@@ -230,7 +230,7 @@ CImg Library is a small and open-source C++ toolkit for image processing.
 
 The VLFeat open source library implements popular computer vision algorithms specialising in image understanding and local featurexs extraction and matching.
 
-### SfM
+### Structure from Motion
 
 #### [TheiaSfM](https://github.com/sweeneychris/TheiaSfM)
 [![Watchers](https://img.shields.io/github/watchers/sweeneychris/TheiaSfM)](Watchers) [![Stars](https://img.shields.io/github/stars/sweeneychris/TheiaSfM)](Stars) [![Forks](https://img.shields.io/github/forks/sweeneychris/TheiaSfM)](Forks) [![License](https://img.shields.io/github/license/sweeneychris/TheiaSfM)](LICENSE)
@@ -437,6 +437,11 @@ A tiny yet powerful rendering library.
 [![Watchers](https://img.shields.io/github/watchers/xelatihy/yocto-gl)](Watchers) [![Stars](https://img.shields.io/github/stars/xelatihy/yocto-gl)](Stars) [![Forks](https://img.shields.io/github/forks/xelatihy/yocto-gl)](Forks) [![License](https://img.shields.io/github/license/xelatihy/yocto-gl)](LICENSE)
 
 Yocto/GL is a collection of small C++17 libraries for building physically-based graphics algorithms released under the MIT license.
+
+#### [Filament](https://github.com/google/filament)
+[![Watchers](https://img.shields.io/github/watchers/google/filament)](Watchers) [![Stars](https://img.shields.io/github/stars/google/filament)](Stars) [![Forks](https://img.shields.io/github/forks/google/filament)](Forks) [![License](https://img.shields.io/github/license/google/filament)](LICENSE)
+
+Filament is a real-time physically based rendering engine for Android, iOS, Linux, macOS, Windows, and WebGL. It is designed to be as small as possible and as efficient as possible on Android.
 
 ### Simulation
 
