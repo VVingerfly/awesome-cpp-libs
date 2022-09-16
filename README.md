@@ -18,6 +18,7 @@
   - [GUI](#gui)
   - [Visualization](#visualization)
   - [GPU](#gpu)
+  - [Utility](#utility)
 - [Math](#math)
   - [Linear Algebra](#linear-algebra)
   - [Optimization](#optimization)
@@ -37,7 +38,9 @@
   - [Nearest Neighbors](#nearest-neighbors)
   - [Collision](#collision)
   - [Rendering](#rendering)
+  - [Animation](#animation)
   - [Simulation](#simulation)
+  - [Modeling](#modeling)
   - [Others](#others)
 
 -----
@@ -156,6 +159,13 @@ A C++ GPU Computing Library for OpenCL
 
 VexCL is a C++ vector expression template library for OpenCL/CUDA/OpenMP
 
+### Utility
+
+#### [magic_enum](https://github.com/Neargye/magic_enum)
+[![Watchers](https://img.shields.io/github/watchers/Neargye/magic_enum)](Watchers) [![Stars](https://img.shields.io/github/stars/Neargye/magic_enum)](Stars) [![Forks](https://img.shields.io/github/forks/Neargye/magic_enum)](Forks) [![License](https://img.shields.io/github/license/Neargye/magic_enum)](LICENSE)
+
+Magic Enum C++ is a header-only C++17 library provides static reflection for enums, work with any enum type without any macro or boilerplate code.
+
 ## Math
 
 ### Linear Algebra
@@ -273,10 +283,20 @@ AliceVision is a Photogrammetric Computer Vision Framework which provides a 3D R
 
 A simple C++ geometry processing library.
 
+#### [meshlab](https://github.com/cnr-isti-vclab/meshlab)
+[![Watchers](https://img.shields.io/github/watchers/cnr-isti-vclab/meshlab)](Watchers) [![Stars](https://img.shields.io/github/stars/cnr-isti-vclab/meshlab)](Stars) [![Forks](https://img.shields.io/github/forks/cnr-isti-vclab/meshlab)](Forks) [![License](https://img.shields.io/github/license/cnr-isti-vclab/meshlab)](LICENSE)
+
+MeshLab is an open source, portable, and extensible system for the processing and editing of unstructured large 3D triangular meshes.
+
 #### [CGAL](https://github.com/CGAL/cgal)
 [![Watchers](https://img.shields.io/github/watchers/CGAL/cgal)](Watchers) [![Stars](https://img.shields.io/github/stars/CGAL/cgal)](Stars) [![Forks](https://img.shields.io/github/forks/CGAL/cgal)](Forks) [![License](https://img.shields.io/github/license/CGAL/cgal)](LICENSE)
 
 The Computational Geometry Algorithms Library (CGAL), a C++ library that aims to provide easy access to efficient and reliable algorithms in computational geometry.
+
+#### [Geogram](https://github.com/BrunoLevy/geogram)
+[![Watchers](https://img.shields.io/github/watchers/BrunoLevy/geogram)](Watchers) [![Stars](https://img.shields.io/github/stars/BrunoLevy/geogram)](Stars) [![Forks](https://img.shields.io/github/forks/BrunoLevy/geogram)](Forks) [![License](https://img.shields.io/github/license/BrunoLevy/geogram)](LICENSE)
+
+Geogram is a programming library with geometric algorithms. And [Graphite](https://github.com/BrunoLevy/GraphiteThree) is an experimental 3D modeler built around geogram.
 
 #### [Open3D](https://github.com/intel-isl/Open3D)
 [![Watchers](https://img.shields.io/github/watchers/intel-isl/Open3D)](Watchers) [![Stars](https://img.shields.io/github/stars/intel-isl/Open3D)](Stars) [![Forks](https://img.shields.io/github/forks/intel-isl/Open3D)](Forks) [![License](https://img.shields.io/github/license/intel-isl/Open3D)](LICENSE)
@@ -286,7 +306,7 @@ A modern library for 3D data processing.
 #### [vcglib](https://github.com/cnr-isti-vclab/vcglib)
 [![Watchers](https://img.shields.io/github/watchers/cnr-isti-vclab/vcglib)](Watchers) [![Stars](https://img.shields.io/github/stars/cnr-isti-vclab/vcglib)](Stars) [![Forks](https://img.shields.io/github/forks/cnr-isti-vclab/vcglib)](Forks) [![License](https://img.shields.io/github/license/cnr-isti-vclab/vcglib)](LICENSE)
 
-The Visualization and Computer Graphics Library (VCGlib for short), a open source, portable, C++, templated, no dependency, library for manipulation, processing, cleaning, simplifying triangle meshes.
+The Visualization and Computer Graphics Library (VCGlib for short), a open source, portable, C++, templated, no dependency, library for manipulation, processing, cleaning, simplifying triangle meshes. And it is the base of [Meshlab](http://www.meshlab.net).
 
 #### [OpenFlipper](http://www.openflipper.org/)
 
@@ -351,6 +371,11 @@ polyscope is a C++/Python viewer and user interface for 3D data, like meshes and
 #### [Triangle](http://www.cs.cmu.edu/~quake/triangle.html)
 
 A two-dimensional quality mesh generator and delaunay triangulator.
+
+#### [CDT](https://github.com/artem-ogre/CDT)
+[![Watchers](https://img.shields.io/github/watchers/artem-ogre/CDT)](Watchers) [![Stars](https://img.shields.io/github/stars/artem-ogre/CDT)](Stars) [![Forks](https://img.shields.io/github/forks/artem-ogre/CDT)](Forks) [![License](https://img.shields.io/github/license/artem-ogre/CDT)](LICENSE)
+
+CDT is a C++ library for generating constraint or conforming Delaunay triangulations.
 
 ### Texture/Atlas
 
@@ -443,6 +468,13 @@ Yocto/GL is a collection of small C++17 libraries for building physically-based 
 
 Filament is a real-time physically based rendering engine for Android, iOS, Linux, macOS, Windows, and WebGL. It is designed to be as small as possible and as efficient as possible on Android.
 
+### Animation
+
+#### [ozz-animation](https://github.com/guillaumeblanc/ozz-animation)
+[![Watchers](https://img.shields.io/github/watchers/guillaumeblanc/ozz-animation)](Watchers) [![Stars](https://img.shields.io/github/stars/guillaumeblanc/ozz-animation)](Stars) [![Forks](https://img.shields.io/github/forks/guillaumeblanc/ozz-animation)](Forks) [![License](https://img.shields.io/github/license/guillaumeblanc/ozz-animation)](LICENSE)
+
+ozz-animation is an open source c++ 3d skeletal animation library. It provides runtime character animation functionalities (sampling, blending...), with the toolset to import major DCC formats (Collada, Fbx, glTF...). It proposes a low-level renderer and game-engine agnostic implementation, focusing on performance and memory constraints with a data-oriented design.
+
 ### Simulation
 
 #### [bullet3](https://github.com/bulletphysics/bullet3)
@@ -450,12 +482,34 @@ Filament is a real-time physically based rendering engine for Android, iOS, Linu
 
 Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc.
 
+#### [pinocchio](https://github.com/stack-of-tasks/pinocchio)
+[![Watchers](https://img.shields.io/github/watchers/stack-of-tasks/pinocchio)](Watchers) [![Stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio)](Stars) [![Forks](https://img.shields.io/github/forks/stack-of-tasks/pinocchio)](Forks) [![License](https://img.shields.io/github/license/stack-of-tasks/pinocchio)](LICENSE)
+
+Pinocchio is a fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives.
+
+### Modeling
+
+#### [OpenSCAD](https://github.com/openscad/openscad)
+[![Watchers](https://img.shields.io/github/watchers/openscad/openscad)](Watchers) [![Stars](https://img.shields.io/github/stars/openscad/openscad)](Stars) [![Forks](https://img.shields.io/github/forks/openscad/openscad)](Forks) [![License](https://img.shields.io/github/license/openscad/openscad)](LICENSE)
+
+OpenSCAD is a software for creating solid 3D CAD objects.
+
+#### [Dust3D](https://github.com/huxingyi/dust3d)
+[![Watchers](https://img.shields.io/github/watchers/huxingyi/dust3d)](Watchers) [![Stars](https://img.shields.io/github/stars/huxingyi/dust3d)](Stars) [![Forks](https://img.shields.io/github/forks/huxingyi/dust3d)](Forks) [![License](https://img.shields.io/github/license/huxingyi/dust3d)](LICENSE)
+
+Dust3D is a cross-platform open-source 3D modeling software. Auto UV unwrapping, auto rigging with PBR Material support, pose and motion authoring all in one.
+
 ### Others
 
 #### [quickhull](https://github.com/akuukka/quickhull)
 [![Watchers](https://img.shields.io/github/watchers/akuukka/quickhull)](Watchers) [![Stars](https://img.shields.io/github/stars/akuukka/quickhull)](Stars) [![Forks](https://img.shields.io/github/forks/akuukka/quickhull)](Forks) [![License](https://img.shields.io/github/license/akuukka/quickhull)](LICENSE)
 
 C++ implementation of the 3D QuickHull algorithm.
+
+#### [QHull](https://github.com/qhull/qhull)
+[![Watchers](https://img.shields.io/github/watchers/qhull/qhull)](Watchers) [![Stars](https://img.shields.io/github/stars/qhull/qhull)](Stars) [![Forks](https://img.shields.io/github/forks/qhull/qhull)](Forks) [![License](https://img.shields.io/github/license/qhull/qhull)](LICENSE)
+
+Qhull is a general dimension convex hull program. It also generates Delaunay triangulations, Voronoi diagrams, furthest-site Voronoi diagrams, and halfspace intersections about a point.
 
 #### [Cork Boolean Library](https://github.com/gilbo/cork)
 [![Watchers](https://img.shields.io/github/watchers/gilbo/cork)](Watchers) [![Stars](https://img.shields.io/github/stars/gilbo/cork)](Stars) [![Forks](https://img.shields.io/github/forks/gilbo/cork)](Forks) [![License](https://img.shields.io/github/license/gilbo/cork)](LICENSE)
