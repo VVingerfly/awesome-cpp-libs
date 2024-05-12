@@ -12,6 +12,7 @@
   - [Base Libraries](#base-libraries)
   - [Command Line Parser](#command-line-parser)
   - [Logging](#logging)
+  - [Profiler](#profiler)
   - [Format String](#format-string)
   - [Testing](#testing)
   - [Serialization](#serialization)
@@ -22,6 +23,7 @@
 - [Math](#math)
   - [Linear Algebra](#linear-algebra)
   - [Optimization](#optimization)
+  - [Automatic Differentiation](#automatic-differentiation)
   - [Statistics](#statistics)
 - [CV](#cv)
   - [Image Processing](#image-processing)
@@ -32,7 +34,7 @@
   - [PointCloud Processing](#pointcloud-processing)
   - [Visualization](#visualization)
   - [Triangulation](#triangulation)
-  - [Texture/Atlas](#texture/atlas)
+  - [Texture&Atlas](#texture&atlas)
   - [Transformation](#transformation)
   - [Registration](#registration)
   - [Nearest Neighbors](#nearest-neighbors)
@@ -81,6 +83,23 @@ plog is a portable, simple and extensible C++ logging library, pretty powerful l
 [![Stars](https://img.shields.io/github/stars/emilk/loguru)](Stars) [![Forks](https://img.shields.io/github/forks/emilk/loguru)](Forks) [![Watchers](https://img.shields.io/github/watchers/emilk/loguru)](Watchers) [![License](https://img.shields.io/github/license/emilk/loguru)](LICENSE)
 
 loguru is a lightweight and flexible C++ logging library.
+
+### Profiler
+
+#### [easy_profiler](https://github.com/yse/easy_profiler)
+[![Stars](https://img.shields.io/github/stars/yse/easy_profiler)](Stars) [![Forks](https://img.shields.io/github/forks/yse/easy_profiler)](Forks) [![Watchers](https://img.shields.io/github/watchers/yse/easy_profiler)](Watchers) [![License](https://img.shields.io/github/license/yse/easy_profiler)](LICENSE)
+
+easy_profiler is lightweight cross-platform profiler library for C++.
+
+#### [microprofile](https://github.com/jonasmr/microprofile)
+[![Stars](https://img.shields.io/github/stars/jonasmr/microprofile)](Stars) [![Forks](https://img.shields.io/github/forks/jonasmr/microprofile)](Forks) [![Watchers](https://img.shields.io/github/watchers/jonasmr/microprofile)](Watchers) [![License](https://img.shields.io/github/license/jonasmr/microprofile)](LICENSE)
+
+Microprofile is a embeddable profiler in a few files, written in C++
+
+#### [Remotery](https://github.com/Celtoys/Remotery)
+[![Stars](https://img.shields.io/github/stars/Celtoys/Remotery)](Stars) [![Forks](https://img.shields.io/github/forks/Celtoys/Remotery)](Forks) [![Watchers](https://img.shields.io/github/watchers/Celtoys/Remotery)](Watchers) [![License](https://img.shields.io/github/license/Celtoys/Remotery)](LICENSE)
+
+Remotery is a realtime CPU/GPU profiler hosted in a single C file with a viewer that runs in a web browser.
 
 ### Format String
 
@@ -208,6 +227,33 @@ NLopt is a library for nonlinear local and global optimization, for functions wi
 [![Stars](https://img.shields.io/github/stars/ddemidov/amgcl)](Stars) [![Forks](https://img.shields.io/github/forks/ddemidov/amgcl)](Forks) [![Watchers](https://img.shields.io/github/watchers/ddemidov/amgcl)](Watchers) [![License](https://img.shields.io/github/license/ddemidov/amgcl)](LICENSE)
 
 AMGCL is a header-only C++ library for solving large sparse linear systems with algebraic multigrid (AMG) method.
+
+#### [optim](https://github.com/kthohr/optim)
+[![Stars](https://img.shields.io/github/stars/kthohr/optim)](Stars) [![Forks](https://img.shields.io/github/forks/kthohr/optim)](Forks) [![Watchers](https://img.shields.io/github/watchers/kthohr/optim)](Watchers) [![License](https://img.shields.io/github/license/kthohr/optim)](LICENSE)
+
+OptimLib is a lightweight C++ library of numerical optimization methods for nonlinear functions.
+
+### Automatic Differentiation
+
+#### [optim](https://github.com/autodiff/autodiff)
+[![Stars](https://img.shields.io/github/stars/autodiff/autodiff)](Stars) [![Forks](https://img.shields.io/github/forks/autodiff/autodiff)](Forks) [![Watchers](https://img.shields.io/github/watchers/autodiff/autodiff)](Watchers) [![License](https://img.shields.io/github/license/autodiff/autodiff)](LICENSE)
+
+autodiff is a C++17 library that uses modern and advanced programming techniques to enable automatic computation of derivatives in an efficient, easy, and intuitive way.
+
+#### [FastAD](https://github.com/JamesYang007/FastAD)
+[![Stars](https://img.shields.io/github/stars/JamesYang007/FastAD)](Stars) [![Forks](https://img.shields.io/github/forks/JamesYang007/FastAD)](Forks) [![Watchers](https://img.shields.io/github/watchers/JamesYang007/FastAD)](Watchers) [![License](https://img.shields.io/github/license/JamesYang007/FastAD)](LICENSE)
+
+FastAD is a header-only C++ template library for automatic differentiation supporting both forward and reverse mode.
+
+#### [clad](https://github.com/vgvassilev/clad)
+[![Stars](https://img.shields.io/github/stars/vgvassilev/clad)](Stars) [![Forks](https://img.shields.io/github/forks/vgvassilev/clad)](Forks) [![Watchers](https://img.shields.io/github/watchers/vgvassilev/clad)](Watchers) [![License](https://img.shields.io/github/license/vgvassilev/clad)](LICENSE)
+
+Clad is a source-transformation automatic differentiation (AD) library for C++, implemented as a plugin for the Clang compiler.
+
+#### [Adept-2](https://github.com/rjhogan/Adept-2)
+[![Stars](https://img.shields.io/github/stars/rjhogan/Adept-2)](Stars) [![Forks](https://img.shields.io/github/forks/rjhogan/Adept-2)](Forks) [![Watchers](https://img.shields.io/github/watchers/rjhogan/Adept-2)](Watchers) [![License](https://img.shields.io/github/license/rjhogan/Adept-2)](LICENSE)
+
+Adept-2 is combined array and automatic differentiation library in C++.
 
 ### Statistics
 
@@ -377,7 +423,7 @@ A two-dimensional quality mesh generator and delaunay triangulator.
 
 CDT is a C++ library for generating constraint or conforming Delaunay triangulations.
 
-### Texture/Atlas
+### Texture&Atlas
 
 #### [mvs-texturing](https://github.com/nmoehrle/mvs-texturing)
 [![Stars](https://img.shields.io/github/stars/nmoehrle/mvs-texturing)](Stars) [![Forks](https://img.shields.io/github/forks/nmoehrle/mvs-texturing)](Forks) [![Watchers](https://img.shields.io/github/watchers/nmoehrle/mvs-texturing)](Watchers) [![License](https://img.shields.io/github/license/nmoehrle/mvs-texturing)](LICENSE)
@@ -393,6 +439,11 @@ xatlas is a small C++11 library with no external dependencies that generates uni
 [![Stars](https://img.shields.io/github/stars/Microsoft/UVAtlas)](Stars) [![Forks](https://img.shields.io/github/forks/Microsoft/UVAtlas)](Forks) [![Watchers](https://img.shields.io/github/watchers/Microsoft/UVAtlas)](Watchers) [![License](https://img.shields.io/github/license/Microsoft/UVAtlas)](LICENSE)
 
 UVAtlas is a shared source library for creating and packing an isochart texture atlas.
+
+#### [ptex](https://github.com/wdas/ptex)
+[![Stars](https://img.shields.io/github/stars/wdas/ptex)](Stars) [![Forks](https://img.shields.io/github/forks/wdas/ptex)](Forks) [![Watchers](https://img.shields.io/github/watchers/wdas/ptex)](Watchers) [![License](https://img.shields.io/github/license/wdas/ptex)](LICENSE)
+
+Ptex is a texture mapping system developed by Walt Disney Animation Studios for production-quality rendering.
 
 ### Transformation
 
